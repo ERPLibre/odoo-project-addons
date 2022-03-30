@@ -22,7 +22,7 @@
     <record id="task_form_with_timesheet_tab_visible_on_templates" model="ir.ui.view">
         <field name="name">Task Form: make Timesheet tab visible for task templates</field>
         <field name="model">project.task</field>
-        <field name="inherit_id" ref="project_template.task_form_with_is_template"/>
+        <field name="inherit_id" ref="project_template_numigi.task_form_with_is_template"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='timesheet_ids']/.." position="attributes">
                 <attribute name="attrs">{'invisible': [('allow_timesheets', '=', False), ('is_template', '=', False)]}</attribute>

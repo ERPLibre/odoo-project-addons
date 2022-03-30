@@ -1,5 +1,5 @@
 /**
- * Tests for the module project_template.
+ * Tests for the module project_template_numigi.
  *
  * This module contains a javascript file that allows to declare a task/project field
  * as invisible if the record is a template.
@@ -8,7 +8,7 @@
 import { Selector } from 'testcafe'
 import { login, openAllTaskKanban, openAnyKabanRecord, clickEditButton } from './common'
 
-fixture `Test the project_template module`
+fixture `Test the project_template_numigi module`
     .page `odoo.localtest.me:8069/web`;
 
 function openExtraInfoTab(t){
