@@ -2,7 +2,7 @@
     © 2019 Numigi (tm) and all its contributors (https://bit.ly/numigiens)
     License LGPL-3.0 or later (http://www.gnu.org/licenses/LGPL.html).
 */
-odoo.define("project_template.hidden_fields", function(require) {
+odoo.define("project_template_numigi.hidden_fields", function(require) {
 "use strict";
 
 var Domain = require("web.Domain");

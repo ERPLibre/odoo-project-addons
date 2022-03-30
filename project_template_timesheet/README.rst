@@ -1,6 +1,6 @@
 Project Template / Timesheet
 ============================
-This module is a binding between project_template and hr_timesheet.
+This module is a binding between project_template_numigi and hr_timesheet.
 
 It prevents adding a timesheet line on a task template.
 

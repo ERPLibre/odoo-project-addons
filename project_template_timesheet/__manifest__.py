@@ -8,9 +8,9 @@
     'maintainer': 'Numigi',
     'license': 'LGPL-3',
     'category': 'Project',
-    'summary': 'Binding between project_template and hr_timesheet',
+    'summary': 'Binding between project_template_numigi and hr_timesheet',
     'depends': [
-        'project_template',
+        'project_template_numigi',
         'hr_timesheet',
     ],
     'data': [
